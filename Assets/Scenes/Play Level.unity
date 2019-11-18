@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 127895434}
   - component: {fileID: 127895433}
   - component: {fileID: 127895432}
+  - component: {fileID: 127895438}
   m_Layer: 9
   m_Name: koboop
   m_TagString: Untagged
@@ -302,6 +303,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127895438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127895431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244c9b20bfdd56449a2c2f0f2ba2319d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132869763
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +549,30 @@ MonoBehaviour:
     type: 3}
   bulletSpawn: {fileID: 93272033}
   fireTime: 0.2
+--- !u!114 &1517489027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517489019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf6b6213418919488a736ea481b42ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1517489028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517489019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdca66f3230f6874bbf31754ed7c96d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1987587906
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696241545068569847, guid: d5e109294b963424cab22b1d1c10d206,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3696241545068569845, guid: d5e109294b963424cab22b1d1c10d206,
         type: 3}

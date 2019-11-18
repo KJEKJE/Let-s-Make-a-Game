@@ -16,4 +16,9 @@ public class OhYouAreApproachingMe : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, newRot, Time.deltaTime * smoothing);
         }
     }
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+    }
+
 }
