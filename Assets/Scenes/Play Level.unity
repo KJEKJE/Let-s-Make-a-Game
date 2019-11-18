@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93272032}
   m_LocalRotation: {x: 0, y: -0, z: 0.5, w: -0.8660254}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1.2, y: 0, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 0}
   m_Children: []
   m_Father: {fileID: 814753471}
@@ -315,6 +315,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 244c9b20bfdd56449a2c2f0f2ba2319d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: EnemySpawnedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &132869763
 GameObject:
   m_ObjectHideFlags: 0
